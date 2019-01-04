@@ -1,0 +1,36 @@
+{
+  "name": "testing-debugging",
+  "version": "1.0.0",
+  "description": "TDD using Mocha, Chai & various other NPM modules for advance testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharathsg27/testing-debugging.git"
+  },
+  "keywords": [
+    "TDD",
+    "Mocha",
+    "Chai",
+    "Sinon",
+    "(spies",
+    "stubs)",
+    "Istanbul",
+    "Supertest",
+    "Cheerio"
+  ],
+  "author": "Sharath S",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sharathsg27/testing-debugging/issues"
+  },
+  "homepage": "https://github.com/sharathsg27/testing-debugging#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "rewire": "^4.0.1",
+    "sinon": "^7.2.2"
+  }
+}
