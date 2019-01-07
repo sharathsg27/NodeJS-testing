@@ -2,7 +2,8 @@ const https = require('https');
 
 function loadWiki(name, callback) {
     if (name.first && name.last) {
-        let url = `https://en.wikipedia.org/wiki/${name.first}/${name.last}`;
+        let url = `https://en.wikipedia.org/wiki/${name.first}_${name.last}`;
+        console.log(url);
         https.get(url, (res) => {
             let body = "";
 
