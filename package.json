@@ -1,39 +1,27 @@
 {
-  "name": "testing-debugging",
+  "name": "ski-dictionary",
   "version": "1.0.0",
-  "description": "TDD using Mocha, Chai & various other NPM modules for advance testing",
-  "main": "index.js",
+  "description": "A collection of skier terms and definitions",
+  "main": "app.js",
   "scripts": {
-    "test": "mocha 'test/**/*.js'",
-    "coverage": "istanbul cover --no-default-excludes --reporter=html  -x '**/node_modules/**' _mocha test/*"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sharathsg27/testing-debugging.git"
+    "test": "mocha"
   },
   "keywords": [
-    "TDD",
-    "Mocha",
-    "Chai",
-    "Sinon",
-    "(spies",
-    "stubs)",
-    "Istanbul",
-    "Supertest",
-    "Cheerio"
+    "ski",
+    "terms",
+    "dictionary"
   ],
-  "author": "Sharath S",
+  "author": "Alex Banks",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sharathsg27/testing-debugging/issues"
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "cors": "^2.7.1",
+    "express": "^4.13.3"
   },
-  "homepage": "https://github.com/sharathsg27/testing-debugging#readme",
   "devDependencies": {
-    "chai": "^4.2.0",
-    "istanbul": "^0.4.5",
+    "chai": "^3.4.0",
     "mocha": "^5.2.0",
-    "nock": "^10.0.6",
-    "rewire": "^4.0.1",
-    "sinon": "^7.2.2"
+    "rewire": "^2.3.4",
+    "supertest": "^3.3.0"
   }
 }
