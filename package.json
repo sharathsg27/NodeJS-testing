@@ -4,7 +4,7 @@
   "description": "TDD using Mocha, Chai & various other NPM modules for advance testing",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha 'test/**/*.js'"
   },
   "repository": {
     "type": "git",
